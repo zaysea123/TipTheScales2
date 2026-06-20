@@ -1,0 +1,20 @@
+:root {
+}
+
+.stat-label {
+    bottom: auto;
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    font-size: 45px;
+    -unity-font-style: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.red {
+    -unity-background-image-tint-color: rgb(207, 0, 0);
+}

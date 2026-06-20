@@ -1,0 +1,24 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Level/UI/StyleSheets/SettingsMenu.uss?fileID=7433441132597879392&amp;guid=52378744a486fa04ba01c34f0289cc4a&amp;type=3#SettingsMenu"/>
+    <ui:VisualElement name="PanelBackground" class="panel-background hidden" style="background-color: rgba(0, 0, 0, 0);">
+        <ui:VisualElement name="Window" class="window">
+            <ui:Label text="Adjust Bindings" name="Header" class="title"/>
+            <ui:Button text="Close" name="CloseButton" style="position: absolute; height: auto; font-size: 44px; margin-top: 6px; margin-left: 6px;"/>
+            <ui:ScrollView name="BindingsContainer" horizontal-scroller-visibility="Hidden" style="flex-grow: 1; flex-wrap: wrap; background-color: rgba(0, 0, 0, 0.27); border-top-width: 5px; border-bottom-width: 5px; border-bottom-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0);"/>
+            <ui:Label text="" name="ConflictLabel" style="align-self: center; font-size: 50px; color: rgb(255, 151, 0); -unity-font-style: normal;"/>
+            <ui:VisualElement name="Buttons" style="flex-grow: initial; flex-direction: row; align-self: center;">
+                <ui:Button text="Reset to Default" name="ResetBindingsButton" class="binding-button"/>
+                <ui:Button text="Save Changes" name="SaveButton" class="binding-button"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="ConflictPopup" style="flex-grow: 1; position: absolute; align-self: auto; top: 0; bottom: 0; left: 0; right: 0; background-color: rgba(0, 0, 0, 0.39); align-content: auto; justify-content: center; align-items: center; visibility: hidden;">
+            <ui:VisualElement name="Panel" style="flex-grow: initial; background-color: rgb(93, 93, 93); width: auto; height: auto; flex-shrink: 1; padding-left: 25px; padding-right: 25px; padding-bottom: 25px; padding-top: 25px;">
+                <ui:Label text="Confirm Binding" name="ConflictLabel" class="title"/>
+                <ui:VisualElement name="Buttons" style="flex-grow: initial; flex-direction: row; justify-content: center;">
+                    <ui:Button text="Keep Binding" name="KeepBindingButton" class="binding-button"/>
+                    <ui:Button text="Cancel" name="CancelBindingButton" class="binding-button"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

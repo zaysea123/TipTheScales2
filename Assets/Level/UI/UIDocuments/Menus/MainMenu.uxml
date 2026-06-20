@@ -1,0 +1,11 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Level/UI/StyleSheets/MainMenu.uss?fileID=7433441132597879392&amp;guid=aa1df65cc756c5f4b9bd4eee3c7a2419&amp;type=3#MainMenu"/>
+    <ui:Label text="Tip the Scales" name="Title" style="-unity-text-align: upper-center; font-size: 90px; -unity-font-style: bold; color: rgb(255, 239, 125);"/>
+    <ui:VisualElement name="ButtonContainer" style="flex-grow: 1; flex-direction: column-reverse; position: absolute; bottom: 0; margin-left: 1%; margin-bottom: 1%;">
+        <ui:Button text="Quit" name="QuitButton" class="menu-button"/>
+        <ui:Button text="Credits" name="CreditsButton" class="menu-button"/>
+        <ui:Button text="Settings" name="SettingsButton" class="menu-button"/>
+        <ui:Button text="Multiplayer" name="MultiplayerButton" class="menu-button"/>
+        <ui:Button text="Singleplayer" name="SingleplayerButton" class="menu-button"/>
+    </ui:VisualElement>
+</ui:UXML>

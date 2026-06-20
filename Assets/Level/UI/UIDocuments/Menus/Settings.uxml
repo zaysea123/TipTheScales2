@@ -1,0 +1,12 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Level/UI/StyleSheets/PauseMenu.uss?fileID=7433441132597879392&amp;guid=d7e2921839b8686449cec1d5726022ef&amp;type=3#PauseMenu"/>
+    <ui:VisualElement name="Container" class="hidden" style="flex-grow: 1; position: absolute; width: 100%; height: 100%;">
+        <ui:VisualElement name="BackgroundPanel" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.86); width: 40%; position: relative; align-self: center; margin-top: 64px; margin-bottom: 64px;">
+            <ui:Label text="Settings" name="Title" style="-unity-text-align: upper-center; color: rgb(255, 255, 255); font-size: 75px; -unity-font-style: bold;"/>
+            <ui:VisualElement name="ButtonsContainer" style="flex-grow: 1; align-self: center; padding-top: 10px; padding-bottom: 10px; justify-content: center;">
+                <ui:Button text="Change Bindings" name="ChangeBindingsButton" class="button"/>
+                <ui:Button text="Close" name="CloseButton" class="button"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

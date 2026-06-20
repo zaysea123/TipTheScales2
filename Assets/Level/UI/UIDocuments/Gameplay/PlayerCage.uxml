@@ -1,0 +1,6 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Level/UI/StyleSheets/PlayerCage.uss?fileID=7433441132597879392&amp;guid=301dfff2099570546a2d6c936471d224&amp;type=3#PlayerCage"/>
+    <ui:VisualElement name="Alligner" style="flex-grow: 1; justify-content: flex-end;">
+        <ui:Label text="Time: 10" name="TimeoutTimer" class="hidden" style="align-self: center; font-size: 65px; -unity-font-style: bold; color: rgb(255, 86, 93);"/>
+    </ui:VisualElement>
+</ui:UXML>

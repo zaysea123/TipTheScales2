@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad691b932dad98a458ce591a79574c60, type: 3}
+  m_Name: EnemyRegistry
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyRegistry
+  enemies:
+  - enemy: {fileID: 1523946893141706178, guid: 22ac01472013d814b848508ca5ddef5c, type: 3}
+    tier: 0
+    cost: 2
+    weight: 2
+    startWave: 1
+    curveEndWave: 0
+    stopSpawningWave: 0
+    appearanceChance:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - enemy: {fileID: 8276154443068584962, guid: ed23e2a6e42cd1a459cd2ffc62fc9b87, type: 3}
+    tier: 1
+    cost: 4
+    weight: 1
+    startWave: 5
+    curveEndWave: 15
+    stopSpawningWave: 0
+    appearanceChance:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - enemy: {fileID: 8070420967922871306, guid: 026d0434f7d478442a7240d59b9812df, type: 3}
+    tier: 2
+    cost: 8
+    weight: 1
+    startWave: 5
+    curveEndWave: 15
+    stopSpawningWave: 0
+    appearanceChance:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4

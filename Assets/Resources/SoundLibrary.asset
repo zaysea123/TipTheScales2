@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf4c11f97fdad66429ac0cd2b0eebed0, type: 3}
+  m_Name: SoundLibrary
+  m_EditorClassIdentifier: Assembly-CSharp::SoundLibrary
+  entries:
+  - name: ShotgunShoot
+    data:
+      clip: {fileID: 8300000, guid: 9f63fa5f193db0943aa8131a3df5d0e9, type: 3}
+      mixerGroup: {fileID: -5796144478588062741, guid: db81423d922aafc4ba892f1b9c1defa0, type: 2}
+      loop: 0
+      playOnAwake: 0
+      frequentSound: 0
+      spatialBlend: 1
+      dopplerLevel: 0
+      spread: 0
+      rolloffMode: 0
+      minDistance: 4
+      maxDistance: 20
+  - name: Swish
+    data:
+      clip: {fileID: 8300000, guid: d8a80efd06091844ea75951136954120, type: 3}
+      mixerGroup: {fileID: -5796144478588062741, guid: db81423d922aafc4ba892f1b9c1defa0, type: 2}
+      loop: 0
+      playOnAwake: 0
+      frequentSound: 0
+      spatialBlend: 1
+      dopplerLevel: 0
+      spread: 0
+      rolloffMode: 0
+      minDistance: 1
+      maxDistance: 10
+  - name: MetalClink
+    data:
+      clip: {fileID: 8300000, guid: 960da40008fd37d4fb52a1a47f34f399, type: 3}
+      mixerGroup: {fileID: -5796144478588062741, guid: db81423d922aafc4ba892f1b9c1defa0, type: 2}
+      loop: 0
+      playOnAwake: 0
+      frequentSound: 0
+      spatialBlend: 1
+      dopplerLevel: 0
+      spread: 0
+      rolloffMode: 0
+      minDistance: 1
+      maxDistance: 10
+  - name: MetalClang
+    data:
+      clip: {fileID: 8300000, guid: 969db6d3426b59743a437599725bae3c, type: 3}
+      mixerGroup: {fileID: -5796144478588062741, guid: db81423d922aafc4ba892f1b9c1defa0, type: 2}
+      loop: 0
+      playOnAwake: 0
+      frequentSound: 0
+      spatialBlend: 1
+      dopplerLevel: 0
+      spread: 0
+      rolloffMode: 0
+      minDistance: 1
+      maxDistance: 10
+  - name: EnergyWave1
+    data:
+      clip: {fileID: 8300000, guid: 4b13ac8d8592f5a4f94eeceb491214f1, type: 3}
+      mixerGroup: {fileID: -5796144478588062741, guid: db81423d922aafc4ba892f1b9c1defa0, type: 2}
+      loop: 0
+      playOnAwake: 0
+      frequentSound: 0
+      spatialBlend: 1
+      dopplerLevel: 0
+      spread: 0
+      rolloffMode: 0
+      minDistance: 1
+      maxDistance: 10
+  - name: EnemySpawn
+    data:
+      clip: {fileID: 8300000, guid: cac7c30cd4e09344687d86c6ace95682, type: 3}
+      mixerGroup: {fileID: -5796144478588062741, guid: db81423d922aafc4ba892f1b9c1defa0, type: 2}
+      loop: 0
+      playOnAwake: 0
+      frequentSound: 0
+      spatialBlend: 1
+      dopplerLevel: 0
+      spread: 0
+      rolloffMode: 0
+      minDistance: 5.15
+      maxDistance: 20.45
+  - name: LavaLoop
+    data:
+      clip: {fileID: 8300000, guid: f34a5c35fbaa89c4bac3b516a1cdc56a, type: 3}
+      mixerGroup: {fileID: -5796144478588062741, guid: db81423d922aafc4ba892f1b9c1defa0, type: 2}
+      loop: 1
+      playOnAwake: 0
+      frequentSound: 0
+      spatialBlend: 1
+      dopplerLevel: 0
+      spread: 0
+      rolloffMode: 1
+      minDistance: 1.02
+      maxDistance: 10.8
+  - name: PlayerHit
+    data:
+      clip: {fileID: 8300000, guid: 58b1a76497de15140b1ad00219f70e99, type: 3}
+      mixerGroup: {fileID: -5796144478588062741, guid: db81423d922aafc4ba892f1b9c1defa0, type: 2}
+      loop: 0
+      playOnAwake: 0
+      frequentSound: 1
+      spatialBlend: 0
+      dopplerLevel: 0
+      spread: 0
+      rolloffMode: 0
+      minDistance: 1.02
+      maxDistance: 10.8
+  - name: EnemyRoar
+    data:
+      clip: {fileID: 8300000, guid: cdf71524572fc1d4b89be50edb24c6c8, type: 3}
+      mixerGroup: {fileID: -5796144478588062741, guid: db81423d922aafc4ba892f1b9c1defa0, type: 2}
+      loop: 0
+      playOnAwake: 0
+      frequentSound: 1
+      spatialBlend: 1
+      dopplerLevel: 0
+      spread: 0
+      rolloffMode: 1
+      minDistance: 2.74
+      maxDistance: 25.66
+  - name: EnemyDeath
+    data:
+      clip: {fileID: 8300000, guid: 5b9cf02296d8a914c825a24b61fd371d, type: 3}
+      mixerGroup: {fileID: -5796144478588062741, guid: db81423d922aafc4ba892f1b9c1defa0, type: 2}
+      loop: 0
+      playOnAwake: 0
+      frequentSound: 1
+      spatialBlend: 1
+      dopplerLevel: 0
+      spread: 0
+      rolloffMode: 1
+      minDistance: 3.13
+      maxDistance: 25.66
+  - name: LavaPillar
+    data:
+      clip: {fileID: 8300000, guid: c2446f1fa8947f44c9761064a66d1a40, type: 3}
+      mixerGroup: {fileID: -5796144478588062741, guid: db81423d922aafc4ba892f1b9c1defa0, type: 2}
+      loop: 0
+      playOnAwake: 0
+      frequentSound: 0
+      spatialBlend: 1
+      dopplerLevel: 0
+      spread: 0
+      rolloffMode: 1
+      minDistance: 3.13
+      maxDistance: 31
+  - name: Dash
+    data:
+      clip: {fileID: 8300000, guid: d8a80efd06091844ea75951136954120, type: 3}
+      mixerGroup: {fileID: -5796144478588062741, guid: db81423d922aafc4ba892f1b9c1defa0, type: 2}
+      loop: 0
+      playOnAwake: 0
+      frequentSound: 0
+      spatialBlend: 0
+      dopplerLevel: 0
+      spread: 0
+      rolloffMode: 1
+      minDistance: 3.13
+      maxDistance: 31
+  - name: AKGunshot
+    data:
+      clip: {fileID: 8300000, guid: dd16084cacf70bf4f8c88b9373b1e29d, type: 3}
+      mixerGroup: {fileID: -5796144478588062741, guid: db81423d922aafc4ba892f1b9c1defa0, type: 2}
+      loop: 0
+      playOnAwake: 0
+      frequentSound: 0
+      spatialBlend: 0
+      dopplerLevel: 0
+      spread: 0
+      rolloffMode: 1
+      minDistance: 3.13
+      maxDistance: 31
+  - name: AKReload
+    data:
+      clip: {fileID: 8300000, guid: 86a5c5d9efcd843489614435399b7c30, type: 3}
+      mixerGroup: {fileID: -5796144478588062741, guid: db81423d922aafc4ba892f1b9c1defa0, type: 2}
+      loop: 0
+      playOnAwake: 0
+      frequentSound: 0
+      spatialBlend: 0
+      dopplerLevel: 0
+      spread: 0
+      rolloffMode: 1
+      minDistance: 3.13
+      maxDistance: 31

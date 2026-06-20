@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3912804777185682932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 267154175892129514}
+  - component: {fileID: 6838810185258371327}
+  - component: {fileID: 8682899598258509353}
+  m_Layer: 0
+  m_Name: RoomManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &267154175892129514
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3912804777185682932}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6838810185258371327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3912804777185682932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d68b719537630c84bae52a66b6c1419c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RoomGenerator
+  roomPrefabs:
+  - {fileID: 161538410993255275, guid: c924844415658cf4ea8841906c97f5d7, type: 3}
+  - {fileID: 366032625213842979, guid: ff59fd3adc0852844b4b409b14158b81, type: 3}
+  - {fileID: 7113113503379456251, guid: 552849cd7bbd02c46873b17d17ebb1fd, type: 3}
+  - {fileID: 279220437541797230, guid: d5f25740d7af4074ca2b02e6208d0451, type: 3}
+  width: 5
+  height: 5
+  tileSize: 6
+--- !u!114 &8682899598258509353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3912804777185682932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1337be1f3620d1e44a6565dd5dbda7f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Tile
+  hazards:
+  - {fileID: 3906577929807126201, guid: 6f3d17da56dc6b94b81e621c8d6554c5, type: 3}
+  - {fileID: 6868770726500515041, guid: ad610c4d0c1895a4c80d298547e1db8d, type: 3}
+  - {fileID: 6868770726500515041, guid: ad610c4d0c1895a4c80d298547e1db8d, type: 3}
+  - {fileID: 4628614079410640886, guid: ee710e444b195604eb818521ef1441cf, type: 3}
+  - {fileID: 4628614079410640886, guid: ee710e444b195604eb818521ef1441cf, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
